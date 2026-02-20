@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>/ฝาก-ถอน นักเรียนประจำ ด.ศ.ว.</title>
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; /* ป้องกัน scroll ซ้อน */
+      background-color: #eee;
+    }
+
+    iframe {
+      width: 100%;
+      height: 100vh; /* ใช้ vh แทน vw */
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <iframe
+    id="app"
+    src="https://script.google.com/macros/s/AKfycbw-QDSxsAcYFAroKvzEjpJZ2Iht3UtjBV7RKns1No-0A3wVqBXW1uQYv4ZLHiLvupt9IQ/exec"
+    allowfullscreen
+  ></iframe>
+</body>
+</html>
